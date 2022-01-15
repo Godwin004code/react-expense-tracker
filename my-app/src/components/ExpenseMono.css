@@ -1,0 +1,40 @@
+.items {
+    display: flex;
+    /* border-top: 2px solid #ffee00;
+    border-bottom: 2px solid #ffee00; */
+    width: 100%;
+    padding: 0 .8rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.parent {
+    padding-top: .6rem;
+    background: #c5c5c5;
+    margin-bottom: 1rem;
+}
+
+.date {
+    text-align: center;
+    width: 12%;
+    padding: .5rem;
+    border-radius: 4px;
+    background: black;
+    color: #c5c5c5;
+}
+
+.trash {
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    color: red;
+    padding-bottom: .3rem;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        width: 768px;
+        max-width: 100%;
+    }
+    .date {
+        width: 20%;
+    }
+}
